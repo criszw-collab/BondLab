@@ -1,0 +1,24 @@
+# Local environments, private analysis records and downloads
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+data/
+*.sqlite
+*.sqlite-*
+*.db
+.env
+.env.*
+!.env.example
+credentials*.json
+token*.json
+node_modules/
+package-lock.json
+*.log
+.DS_Store
+Thumbs.db
+# Keep bundled validation evidence tracked. It contains public-source fixtures.
+
+# Download official evidence locally; do not publish PDF embedded metadata.
+validation/*.pdf

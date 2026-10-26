@@ -1,0 +1,50 @@
+test_bad_json (test_api.ApiTests.test_bad_json) ... ok
+test_bills_and_portfolio (test_api.ApiTests.test_bills_and_portfolio) ... ok
+test_calculator_and_audit_roundtrip (test_api.ApiTests.test_calculator_and_audit_roundtrip) ... ok
+test_cross_origin_rejected (test_api.ApiTests.test_cross_origin_rejected) ... ok
+test_database_connection_closed_after_exception (test_api.ApiTests.test_database_connection_closed_after_exception) ... ok
+test_database_connection_closed_after_success (test_api.ApiTests.test_database_connection_closed_after_success) ... ok
+test_foreign_host_rejected (test_api.ApiTests.test_foreign_host_rejected) ... ok
+test_home_security_headers (test_api.ApiTests.test_home_security_headers) ... ok
+test_invalid_curve_tenor (test_api.ApiTests.test_invalid_curve_tenor) ... ok
+test_missing_run (test_api.ApiTests.test_missing_run) ... ok
+test_no_nan_json (test_api.ApiTests.test_no_nan_json) ... ok
+test_snapshot_backtest (test_api.ApiTests.test_snapshot_backtest) ... ok
+test_token_required (test_api.ApiTests.test_token_required) ... ok
+test_validation_errors (test_api.ApiTests.test_validation_errors) ... ok
+test_1000_independent_price_checks (test_dated_bonds.DatedBondTests.test_1000_independent_price_checks) ... ok
+test_bill_out_of_range_annualization (test_dated_bonds.DatedBondTests.test_bill_out_of_range_annualization) ... ok
+test_bill_roundtrip (test_dated_bonds.DatedBondTests.test_bill_roundtrip) ... ok
+test_boolean_numeric_input_rejected (test_dated_bonds.DatedBondTests.test_boolean_numeric_input_rejected) ... ok
+test_clean_dirty_and_cashflow_identity (test_dated_bonds.DatedBondTests.test_clean_dirty_and_cashflow_identity) ... ok
+test_end_of_month_and_leap_dates (test_dated_bonds.DatedBondTests.test_end_of_month_and_leap_dates) ... ok
+test_invalid_inputs (test_dated_bonds.DatedBondTests.test_invalid_inputs) ... ok
+test_official_treasury_prices (test_dated_bonds.DatedBondTests.test_official_treasury_prices) ... ok
+test_parallel_isolation (test_dated_bonds.DatedBondTests.test_parallel_isolation) ... ok
+test_portfolio_scaling (test_dated_bonds.DatedBondTests.test_portfolio_scaling) ... ok
+test_reopening_conventions_are_distinct (test_dated_bonds.DatedBondTests.test_reopening_conventions_are_distinct) ... ok
+test_risk_derivatives (test_dated_bonds.DatedBondTests.test_risk_derivatives) ... ok
+test_solver_300_roundtrips (test_dated_bonds.DatedBondTests.test_solver_300_roundtrips) ... ok
+test_zero_coupon (test_dated_bonds.DatedBondTests.test_zero_coupon) ... ok
+test_duration_and_convexity_numerical (test_engine.BondTests.test_duration_and_convexity_numerical) ... ok
+test_invalid_period (test_engine.BondTests.test_invalid_period) ... ok
+test_nonfinite_rejected (test_engine.BondTests.test_nonfinite_rejected) ... ok
+test_par (test_engine.BondTests.test_par) ... ok
+test_published_example (test_engine.BondTests.test_published_example) ... ok
+test_ytm_roundtrip (test_engine.BondTests.test_ytm_roundtrip) ... ok
+test_zero_coupon (test_engine.BondTests.test_zero_coupon) ... ok
+test_costs_lower_return (test_engine.StrategyTests.test_costs_lower_return) ... ok
+test_csv_units_and_month_end (test_engine.StrategyTests.test_csv_units_and_month_end) ... ok
+test_drawdown_from_initial_wealth (test_engine.StrategyTests.test_drawdown_from_initial_wealth) ... ok
+test_exact_rate_shock (test_engine.StrategyTests.test_exact_rate_shock) ... ok
+test_fed_header (test_engine.StrategyTests.test_fed_header) ... ok
+test_flat_carry (test_engine.StrategyTests.test_flat_carry) ... ok
+test_future_changes_do_not_change_signal (test_engine.StrategyTests.test_future_changes_do_not_change_signal) ... ok
+test_interpolation (test_engine.StrategyTests.test_interpolation) ... ok
+test_missing_month_rejected (test_engine.StrategyTests.test_missing_month_rejected) ... ok
+test_upward_curve_roll (test_engine.StrategyTests.test_upward_curve_roll) ... ok
+
+----------------------------------------------------------------------
+Ran 45 tests in 3.365s
+
+OK

@@ -1,0 +1,18 @@
+{
+  "source": "https://www.federalreserve.gov/data/yield-curve-tables/feds200628.csv",
+  "source_description": "Federal Reserve GSW, month-end zero-yield subset",
+  "retrieved_utc": "2026-10-26T16:04:32.946333+00:00",
+  "raw_source_sha256": "59a802aa6f1661c3beb37a7880706627db2913601920e3be3c3dcdd6b5321278",
+  "sha256": "05774e7dc9918ffb691279881adb01e91a4d804119aff5a502fa5ed008c3e38a",
+  "monthly_rows": 192,
+  "start": "2010-01-29",
+  "end": "2025-12-31",
+  "transformation": "Last complete observation per month, 2010\u20132025, SVENY01\u2013SVENY10; unchanged percent continuously compounded units.",
+  "source_quality": {
+    "valid_daily_rows": 13763,
+    "monthly_rows": 663,
+    "dropped_rows": 3285,
+    "source": "Federal Reserve GSW",
+    "short_end": "Flat 0.5\u20131 year segment added when shortest tenor exceeds 0.5 year."
+  }
+}

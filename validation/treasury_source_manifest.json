@@ -1,0 +1,26 @@
+[
+  {
+    "id": "91282CLW9_original",
+    "source": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2024/R_20241105_2.pdf",
+    "filename": "91282CLW9_original.pdf",
+    "sha256": "2fab20cb20160f5be3941fc1e2e59a214462efc9faa62ac1b9095bfa0c7a20bb"
+  },
+  {
+    "id": "91282CLW9_reopening",
+    "source": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2024/R_20241211_2.pdf",
+    "filename": "91282CLW9_reopening.pdf",
+    "sha256": "5e235b20a25e66b60ba42be0b28c8b72fcb828eb3a2f01733da594a1f40cf3e0"
+  },
+  {
+    "id": "912810UE6_reopening",
+    "source": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2025/R_20250108_2.pdf",
+    "filename": "912810UE6_reopening.pdf",
+    "sha256": "53a2ef57acb50d12013d1f2b5f24e9bfd2c614fdc6c0c7392abb79d9763ca481"
+  },
+  {
+    "id": "912797MN4_bill",
+    "source": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2024/R_20241107_2.pdf",
+    "filename": "912797MN4_bill.pdf",
+    "sha256": "ab14058ce548f6d63d4944c1955a8efa500f6c42ca49c49235a91c5949fb0d49"
+  }
+]

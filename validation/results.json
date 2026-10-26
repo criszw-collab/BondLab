@@ -1,0 +1,167 @@
+{
+  "status": "PASS",
+  "engine_version": "2.0.1",
+  "quantlib_version": "1.44",
+  "python_version": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "generated_utc": "2026-10-26T19:32:49.360681+00:00",
+  "tests_run": 45,
+  "failures": 0,
+  "errors": 0,
+  "independent": {
+    "cases": 1000,
+    "max_price_error": 2.6716406864579767e-12,
+    "max_accrual_error": 1.1546319456101628e-14,
+    "tolerance_per_100": 1e-08,
+    "passed": true,
+    "seed": 1703
+  },
+  "yield_roundtrips": 300,
+  "treasury": [
+    {
+      "id": "91282CLW9_original",
+      "source": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2024/R_20241105_2.pdf",
+      "expected_price": 99.220075,
+      "calculated_price": 99.22007483316051,
+      "absolute_error": 1.6683948445006536e-07,
+      "passed": true,
+      "expected_accrued_1000": 0,
+      "calculated_accrued_1000": 0.0,
+      "accrual_absolute_error": 0.0
+    },
+    {
+      "id": "91282CLW9_reopening",
+      "source": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2024/R_20241211_2.pdf",
+      "expected_price": 100.11415,
+      "calculated_price": 100.11414968348183,
+      "absolute_error": 3.165181681197282e-07,
+      "passed": true,
+      "expected_accrued_1000": 3.6395,
+      "calculated_accrued_1000": 3.6395027624309684,
+      "accrual_absolute_error": 2.7624309684171067e-06
+    },
+    {
+      "id": "912810UE6_reopening",
+      "source": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2025/R_20250108_2.pdf",
+      "expected_price": 93.557438,
+      "calculated_price": 93.55743764468282,
+      "absolute_error": 3.553171836756519e-07,
+      "passed": true,
+      "expected_accrued_1000": 7.58287,
+      "calculated_accrued_1000": 7.5828729281768315,
+      "accrual_absolute_error": 2.928176831673568e-06
+    },
+    {
+      "id": "912797MN4_bill",
+      "source": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2024/R_20241107_2.pdf",
+      "expected_price": 99.648833,
+      "calculated_price": 99.64883333333333,
+      "absolute_error": 3.3333333249174757e-07,
+      "passed": true
+    }
+  ],
+  "decimal_backtest_validation": {
+    "periods_checked": 191,
+    "precision_digits": 50,
+    "max_return_error": 1.1796119636642288e-16,
+    "final_wealth_error": 2.6645352591003757e-15,
+    "passed": true
+  },
+  "real_data": {
+    "start": "2010-01-29",
+    "end": "2025-12-31",
+    "periods": 191,
+    "metrics": {
+      "strategy": {
+        "total_return": 0.6641468984991741,
+        "cagr": 0.03250799411997196,
+        "volatility": 0.07922348637708526,
+        "max_drawdown": -0.24942644265328373,
+        "sharpe": 0.2595596406290302
+      },
+      "equal_weight": {
+        "total_return": 0.3358536258647571,
+        "cagr": 0.018354830710394898,
+        "volatility": 0.04286610035741948,
+        "max_drawdown": -0.1642175968387266,
+        "sharpe": 0.09703104226728193
+      },
+      "cash_proxy": {
+        "total_return": 0.27726706629769615,
+        "cagr": 0.015490195101514947,
+        "volatility": 0.0049721876263236885,
+        "max_drawdown": 0.0,
+        "sharpe": null
+      }
+    },
+    "subperiods": {
+      "2010\u20132019": {
+        "strategy": {
+          "total_return": 0.6294110783960067,
+          "cagr": 0.050450787103235806,
+          "volatility": 0.07496659795560441,
+          "max_drawdown": -0.11275287166811321,
+          "sharpe": 0.5937204991665873
+        },
+        "equal_weight": {
+          "total_return": 0.2973023286294656,
+          "cagr": 0.026587951062011728,
+          "volatility": 0.03601615308517076,
+          "max_drawdown": -0.05211839979983246,
+          "sharpe": 0.5394046500182917
+        },
+        "cash_proxy": {
+          "total_return": 0.07948476131699955,
+          "cagr": 0.007740465543103259,
+          "volatility": 0.0023167661547860794,
+          "max_drawdown": 0.0,
+          "sharpe": null
+        }
+      },
+      "2020\u20132025": {
+        "strategy": {
+          "total_return": -0.023051628957148518,
+          "cagr": -0.00393401277664529,
+          "volatility": 0.0844366074234348,
+          "max_drawdown": -0.24942644265328406,
+          "sharpe": -0.31515461019102425
+        },
+        "equal_weight": {
+          "total_return": 0.00723636531086469,
+          "cagr": 0.001219421817722166,
+          "volatility": 0.05196422317420075,
+          "max_drawdown": -0.16421759683872683,
+          "sharpe": -0.48380826248432546
+        },
+        "cash_proxy": {
+          "total_return": 0.18159031615955135,
+          "cagr": 0.0286041800606196,
+          "volatility": 0.005979535835085336,
+          "max_drawdown": 0.0,
+          "sharpe": null
+        }
+      }
+    },
+    "metadata": {
+      "valid_daily_rows": 192,
+      "monthly_rows": 192,
+      "dropped_rows": 0,
+      "source": "https://www.federalreserve.gov/data/yield-curve-tables/feds200628.csv",
+      "short_end": "Flat 0.5\u20131 year segment added when shortest tenor exceeds 0.5 year.",
+      "source_description": "Federal Reserve GSW, month-end zero-yield subset",
+      "retrieved_utc": "2026-10-26T16:04:32.946333+00:00",
+      "raw_source_sha256": "59a802aa6f1661c3beb37a7880706627db2913601920e3be3c3dcdd6b5321278",
+      "sha256": "05774e7dc9918ffb691279881adb01e91a4d804119aff5a502fa5ed008c3e38a",
+      "start": "2010-01-29",
+      "end": "2025-12-31",
+      "transformation": "Last complete observation per month, 2010\u20132025, SVENY01\u2013SVENY10; unchanged percent continuously compounded units.",
+      "source_quality": {
+        "valid_daily_rows": 13763,
+        "monthly_rows": 663,
+        "dropped_rows": 3285,
+        "source": "Federal Reserve GSW",
+        "short_end": "Flat 0.5\u20131 year segment added when shortest tenor exceeds 0.5 year."
+      }
+    }
+  },
+  "browser_validation": "PASS: 16 Chromium 153.0.8010.0 workflow checks, including exports and mobile viewport; desktop and mobile screenshots visually inspected."
+}

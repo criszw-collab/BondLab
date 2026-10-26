@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "generated_utc": "2026-10-26T19:32:38.301Z",
+  "checks": [
+    "Official reopening price displayed",
+    "Dated cash flows displayed",
+    "Price-to-yield mode works",
+    "Portfolio valuation works",
+    "Multiple-position portfolio works",
+    "Official bill price displayed",
+    "Carry explorer works",
+    "Real-data backtest displayed",
+    "Trading-cost sensitivity displayed",
+    "Yearly returns displayed",
+    "CSV export works",
+    "Validation evidence displayed",
+    "Audit history displayed",
+    "Long Treasury preset works",
+    "Mobile page fits viewport",
+    "No browser JavaScript errors"
+  ],
+  "errors": [],
+  "ui_source_sha256": "7a98a987f515a90e409e7bd49ece1d49b259217b19d23f84eb59bc560f648929",
+  "app_source_sha256": "0b0864dc8013dc2053c5fb46718ca3add3d86fbda00a3fd5ed45fb07a9c29cfc",
+  "engine_source_sha256": "74ba1a5b6d4378f2f24eb2880fc6dec67470941a1a96a16a68619ec78484b7da",
+  "browser": "153.0.8010.0"
+}
